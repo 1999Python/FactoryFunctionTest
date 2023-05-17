@@ -20,7 +20,7 @@ describe('Calculate Bill Widget' , function(){
 
         let calculateBill = calculateBillWidget()
 
-        assert.equal(calculateBill.errorOccurred(""), 0.00);
+        assert.equal(calculateBill.errorOccurred("email"), 0.00);
     });
 
     it("should return the total of 7.00 for 2 calls and 2 sms's", function(){
