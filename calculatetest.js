@@ -16,7 +16,7 @@ describe('Calculate Bill Widget' , function(){
 
     });
 
-    it("should return 0.00 when a string that is not 'call' or 'sms' is made for example. 'email','calling'", function(){
+    it("should return 0.00 when other than 'call' or 'sms' is passed for example. 'email','calling'", function(){
 
         let calculateBill = calculateBillWidget()
 
